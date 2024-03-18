@@ -131,3 +131,23 @@ header {
     text-align: center;
     margin-top: 32px;
 }
+
+
+
+/* Service section styles */
+
+.service-content {
+    background: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 85px 0;
+}
+
+.service-info h6 {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 24px;
+}
