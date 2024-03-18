@@ -1,3 +1,5 @@
+/* General styles  */
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 * {
@@ -6,13 +8,49 @@
     font-family: "Lato", sans-serif;
 }
 
+main section {
+    margin-top: 130px;
+}
+
 .container {
     width: 75%;
     max-width: 1440px;
     margin: 0 auto;
 }
 
+button {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 8px;
+    background: #E55473;
+}
 
+.section-heading {
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.section-heading h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-heading p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 25px 0 50px 0;
+}
+
+
+
+/* Banner styles  */
 
 header {
     background: rgba(229, 84, 115, 0.10);
@@ -45,17 +83,10 @@ header {
     margin: 32px 0;
 }
 
-button {
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 20px 40px;
-    border: none;
-    border-radius: 8px;
-    background: #E55473;
-}
-
 .banner-image img {
     vertical-align: middle;
 }
 
+
+
+/* Featured section styles */
