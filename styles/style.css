@@ -223,3 +223,43 @@ header,
     border-radius: 8px;
     padding: 20px;
 }
+
+
+
+/* Footer styles */
+
+footer {
+    margin-top: 130px;
+    background: #111010;
+    padding: 125px 0;
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-title {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-title #footer-highlight {
+    color: #FFF;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 24px 0 32px 0;
+}
+
+#copyrights {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
