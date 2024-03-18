@@ -186,3 +186,12 @@ header,
     line-height: 30px;
     margin: 24px 0px 32px 0px;
 }
+
+
+
+/* Instagram section styles  */
+
+.insta-image-container {
+    display: flex;
+    justify-content: space-between;
+}
