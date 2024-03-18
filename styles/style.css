@@ -90,3 +90,44 @@ header {
 
 
 /* Featured section styles */
+
+.featured-image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 25px;
+}
+
+.featured-image {
+    height: 550px;
+    width: 400px;
+    padding: 50px 25px 0;
+    display: flex;
+    align-items: end;
+    border-radius: 300px 300px 0px 0px;
+}
+
+.featured-image img {
+    width: 100%;
+}
+
+.featured-image-block .pink {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.featured-image-block .bokeh {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.featured-image-block .yellow {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.featured-image-block h5 {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    text-align: center;
+    margin-top: 32px;
+}
